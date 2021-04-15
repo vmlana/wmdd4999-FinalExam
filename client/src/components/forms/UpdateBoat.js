@@ -32,7 +32,7 @@ const UpdateBoat = props => {
       },
       optimisticResponse: {
         __typename: 'Mutation',
-        updatePerson: {
+        updateBoat: {
           __typename: 'Boat',
           id,
           year,
